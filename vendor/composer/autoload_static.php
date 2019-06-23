@@ -92,6 +92,7 @@ class ComposerStaticInitf34ddb9bfda57780a9d84e2bc42934ab
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
             'PhpParser\\' => 10,
+            'PhpJunior\\LaravelHtmlEncrypt\\' => 29,
         ),
         'M' => 
         array (
@@ -316,6 +317,10 @@ class ComposerStaticInitf34ddb9bfda57780a9d84e2bc42934ab
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
+        'PhpJunior\\LaravelHtmlEncrypt\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-junior/laravel-html-encrypt/src',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
@@ -517,6 +522,7 @@ class ComposerStaticInitf34ddb9bfda57780a9d84e2bc42934ab
         'App\\Template' => __DIR__ . '/../..' . '/app/Template.php',
         'App\\TemplateSchedule' => __DIR__ . '/../..' . '/app/TemplateSchedule.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
+        'App\\UserExtraInformation' => __DIR__ . '/../..' . '/app/UserExtraInformation.php',
         'App\\UserSchedule' => __DIR__ . '/../..' . '/app/UserSchedule.php',
         'Barryvdh\\DomPDF\\Facade' => __DIR__ . '/..' . '/barryvdh/laravel-dompdf/src/Facade.php',
         'Barryvdh\\DomPDF\\PDF' => __DIR__ . '/..' . '/barryvdh/laravel-dompdf/src/PDF.php',
@@ -1263,6 +1269,7 @@ class ComposerStaticInitf34ddb9bfda57780a9d84e2bc42934ab
         'FontLib\\Table\\Type\\nameRecord' => __DIR__ . '/..' . '/phenx/php-font-lib/src/FontLib/Table/Type/nameRecord.php',
         'FontLib\\Table\\Type\\os2' => __DIR__ . '/..' . '/phenx/php-font-lib/src/FontLib/Table/Type/os2.php',
         'FontLib\\Table\\Type\\post' => __DIR__ . '/..' . '/phenx/php-font-lib/src/FontLib/Table/Type/post.php',
+        'FontLib\\Tests\\FontTest' => __DIR__ . '/..' . '/dompdf/dompdf/lib/php-font-lib/tests/FontLib/FontTest.php',
         'FontLib\\TrueType\\Collection' => __DIR__ . '/..' . '/phenx/php-font-lib/src/FontLib/TrueType/Collection.php',
         'FontLib\\TrueType\\File' => __DIR__ . '/..' . '/phenx/php-font-lib/src/FontLib/TrueType/File.php',
         'FontLib\\TrueType\\Header' => __DIR__ . '/..' . '/phenx/php-font-lib/src/FontLib/TrueType/Header.php',
@@ -3127,7 +3134,7 @@ class ComposerStaticInitf34ddb9bfda57780a9d84e2bc42934ab
         'PHPUnit\\Util\\TestDox\\XmlResultPrinter' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/TestDox/XmlResultPrinter.php',
         'PHPUnit\\Util\\TextTestListRenderer' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/TextTestListRenderer.php',
         'PHPUnit\\Util\\Type' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Type.php',
-        'PHPUnit\\Util\\Xml' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Xml.php',
+        'PHPUnit\\Util\\Xml' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/XML.php',
         'PHPUnit\\Util\\XmlTestListRenderer' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/XmlTestListRenderer.php',
         'PHPUnit_Framework_MockObject_MockObject' => __DIR__ . '/..' . '/phpunit/phpunit-mock-objects/src/MockObject.php',
         'PHP_Timer' => __DIR__ . '/..' . '/phpunit/php-timer/src/Timer.php',
@@ -3397,6 +3404,8 @@ class ComposerStaticInitf34ddb9bfda57780a9d84e2bc42934ab
         'PharIo\\Version\\VersionConstraintParser' => __DIR__ . '/..' . '/phar-io/version/src/VersionConstraintParser.php',
         'PharIo\\Version\\VersionConstraintValue' => __DIR__ . '/..' . '/phar-io/version/src/VersionConstraintValue.php',
         'PharIo\\Version\\VersionNumber' => __DIR__ . '/..' . '/phar-io/version/src/VersionNumber.php',
+        'PhpJunior\\LaravelHtmlEncrypt\\LaravelHtmlEncryptServiceProvider' => __DIR__ . '/..' . '/php-junior/laravel-html-encrypt/src/LaravelHtmlEncryptServiceProvider.php',
+        'PhpJunior\\LaravelHtmlEncrypt\\Middleware\\HtmlEncrypt' => __DIR__ . '/..' . '/php-junior/laravel-html-encrypt/src/Middleware/HtmlEncrypt.php',
         'PhpParser\\Builder' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Builder.php',
         'PhpParser\\BuilderFactory' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/BuilderFactory.php',
         'PhpParser\\BuilderHelpers' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/BuilderHelpers.php',
@@ -4158,6 +4167,7 @@ class ComposerStaticInitf34ddb9bfda57780a9d84e2bc42934ab
         'Svg\\Tag\\StyleTag' => __DIR__ . '/..' . '/phenx/php-svg-lib/src/Svg/Tag/StyleTag.php',
         'Svg\\Tag\\Text' => __DIR__ . '/..' . '/phenx/php-svg-lib/src/Svg/Tag/Text.php',
         'Svg\\Tag\\UseTag' => __DIR__ . '/..' . '/phenx/php-svg-lib/src/Svg/Tag/UseTag.php',
+        'Svg\\Tests\\StyleTest' => __DIR__ . '/..' . '/dompdf/dompdf/lib/php-svg-lib/tests/Svg/StyleTest.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\CommandLoader\\CommandLoaderInterface' => __DIR__ . '/..' . '/symfony/console/CommandLoader/CommandLoaderInterface.php',
         'Symfony\\Component\\Console\\CommandLoader\\ContainerCommandLoader' => __DIR__ . '/..' . '/symfony/console/CommandLoader/ContainerCommandLoader.php',

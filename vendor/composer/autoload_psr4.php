@@ -45,6 +45,7 @@ return array(
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
+    'PhpJunior\\LaravelHtmlEncrypt\\' => array($vendorDir . '/php-junior/laravel-html-encrypt/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'League\\Flysystem\\' => array($vendorDir . '/league/flysystem/src'),
     'LazyJsonMapper\\' => array($vendorDir . '/lazyjsonmapper/lazyjsonmapper/src'),
